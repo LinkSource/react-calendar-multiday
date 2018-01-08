@@ -1,5 +1,5 @@
 {
-  "name": "react-calendar-multiday",
+  "name": "@linksource/react-calendar-multiday",
   "version": "0.0.22",
   "description": "A minimalist multiday calendar",
   "main": "lib/app.min.js",
@@ -60,9 +60,9 @@
     "yargs": "7.1.0"
   },
   "dependencies": {
-	"moment": "^2.18.1",
-	"moment-range": "^3.0.3",
-	"ramda": "^0.24.1"
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3",
+    "ramda": "^0.24.1"
   },
   "repository": {
     "type": "git",

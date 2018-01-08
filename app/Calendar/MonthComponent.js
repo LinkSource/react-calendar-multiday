@@ -46,19 +46,6 @@ const MonthComponent = props => {
               </div>
           )}
         </div>
-	       <div className={'i_day-picker-actions'}>
-          { reset &&
-            <button className={'i_day-picker-reset'} onClick={reset}>
-              {'reset'}
-            </button>
-          }
-          { addChannel &&
-            <button className={'i_day-picker-add-channel'} onClick={addChannel}
-            disabled={isNil(channels[currentChannel]) || isEmpty(channels[currentChannel])}>
-              {'save channel'}
-            </button>
-          }
-	       </div>
       </div>
   )
 }
