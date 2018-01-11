@@ -12,8 +12,7 @@ const DayWrapper = (props) => {
 
   return (
       <div
-        data-date={props.date.moment.format('MM-DD')}
-        onClick={() => props.onClick(props.date)}>
+        data-date={props.date.moment.format('MM-DD')}>
         {props.children && React.cloneElement(props.children, {...nextProps}) || <DefaultDay {...nextProps}/>}
       </div>)
 }

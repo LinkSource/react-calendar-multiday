@@ -1,6 +1,6 @@
 {
   "name": "@linksource/react-calendar-multiday",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A minimalist multiday calendar",
   "main": "lib/app.min.js",
   "scripts": {
